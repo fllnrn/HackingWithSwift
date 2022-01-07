@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4Hb-Gv-4o8">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project6a" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8kw-aH-jb7">
+                                <rect key="frame" x="95" y="100" width="224" height="114"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="8kw-aH-jb7" secondAttribute="height" multiplier="112:57" id="zix-rY-E76"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="us"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="erm-ZY-smx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ig2-uE-IQL">
+                                <rect key="frame" x="95" y="244" width="224" height="114"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ig2-uE-IQL" secondAttribute="height" multiplier="112:57" id="wrB-Kx-Vvz"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="us"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bzI-Cx-teP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A5f-lN-wqP">
+                                <rect key="frame" x="95" y="388" width="224" height="114"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="A5f-lN-wqP" secondAttribute="height" multiplier="112:57" id="L2G-Lm-TKd"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="us"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6fq-w7-Zrg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="A5f-lN-wqP" firstAttribute="centerX" secondItem="ig2-uE-IQL" secondAttribute="centerX" id="3Yk-Ok-HwA"/>
+                            <constraint firstItem="8kw-aH-jb7" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="86n-G8-Y9v"/>
+                            <constraint firstItem="ig2-uE-IQL" firstAttribute="height" secondItem="8kw-aH-jb7" secondAttribute="height" id="Ao2-M9-Uo9"/>
+                            <constraint firstItem="ig2-uE-IQL" firstAttribute="centerX" secondItem="8kw-aH-jb7" secondAttribute="centerX" id="Zuh-DY-tLh"/>
+                            <constraint firstItem="A5f-lN-wqP" firstAttribute="top" secondItem="ig2-uE-IQL" secondAttribute="bottom" constant="30" id="dBp-EZ-ydV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="A5f-lN-wqP" secondAttribute="bottom" constant="20" id="e9Y-Gg-ELl"/>
+                            <constraint firstItem="ig2-uE-IQL" firstAttribute="top" secondItem="8kw-aH-jb7" secondAttribute="bottom" constant="30" id="f62-EO-9xX"/>
+                            <constraint firstItem="A5f-lN-wqP" firstAttribute="height" secondItem="ig2-uE-IQL" secondAttribute="height" id="oCe-Xz-Aah"/>
+                            <constraint firstItem="8kw-aH-jb7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="upN-Rs-7jD"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="V3I-jb-Uw1"/>
+                    <connections>
+                        <outlet property="button1" destination="8kw-aH-jb7" id="FQE-pz-IHi"/>
+                        <outlet property="button2" destination="ig2-uE-IQL" id="pm7-js-dVy"/>
+                        <outlet property="button3" destination="A5f-lN-wqP" id="anH-Ym-ujM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="979.71014492753636" y="109.82142857142857"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Krv-rB-Lbb">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4Hb-Gv-4o8" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="FVh-wA-0ch">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="tvz-0y-c2W"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rqm-qW-JLX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="69.565217391304358" y="109.82142857142857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="us" width="200" height="100"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
