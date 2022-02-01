@@ -10,26 +10,22 @@
 		5C4B7F6527A540150077104B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4B7F6427A540150077104B /* SwiftyJSON.swift */; };
 		5C4B7F6727A5414E0077104B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4B7F6627A5414E0077104B /* DetailViewController.swift */; };
 		5C4B7F6A27A5460F0077104B /* Project38.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C4B7F6827A5460F0077104B /* Project38.xcdatamodeld */; };
-		5C565B3727A7417500AAFF88 /* Commit+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C565B3327A7417500AAFF88 /* Commit+CoreDataClass.swift */; };
-		5C565B3827A7417500AAFF88 /* Commit+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C565B3427A7417500AAFF88 /* Commit+CoreDataProperties.swift */; };
-		5C565B3927A7417500AAFF88 /* Author+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C565B3527A7417500AAFF88 /* Author+CoreDataClass.swift */; };
-		5C565B3A27A7417500AAFF88 /* Author+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C565B3627A7417500AAFF88 /* Author+CoreDataProperties.swift */; };
 		5CEE569827A0603400DD4698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE569727A0603400DD4698 /* AppDelegate.swift */; };
 		5CEE569A27A0603400DD4698 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE569927A0603400DD4698 /* SceneDelegate.swift */; };
 		5CEE569C27A0603400DD4698 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE569B27A0603400DD4698 /* ViewController.swift */; };
 		5CEE569F27A0603400DD4698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CEE569D27A0603400DD4698 /* Main.storyboard */; };
 		5CEE56A127A0603500DD4698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CEE56A027A0603500DD4698 /* Assets.xcassets */; };
 		5CEE56A427A0603500DD4698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CEE56A227A0603500DD4698 /* LaunchScreen.storyboard */; };
+		5CF6A9B327A9619A00E525E0 /* Commit+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF6A9AF27A9619A00E525E0 /* Commit+CoreDataClass.swift */; };
+		5CF6A9B427A9619A00E525E0 /* Commit+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF6A9B027A9619A00E525E0 /* Commit+CoreDataProperties.swift */; };
+		5CF6A9B527A9619A00E525E0 /* Author+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF6A9B127A9619A00E525E0 /* Author+CoreDataClass.swift */; };
+		5CF6A9B627A9619A00E525E0 /* Author+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF6A9B227A9619A00E525E0 /* Author+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5C4B7F6427A540150077104B /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		5C4B7F6627A5414E0077104B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		5C4B7F6927A5460F0077104B /* Project38.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Project38.xcdatamodel; sourceTree = "<group>"; };
-		5C565B3327A7417500AAFF88 /* Commit+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Commit+CoreDataClass.swift"; sourceTree = "<group>"; };
-		5C565B3427A7417500AAFF88 /* Commit+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Commit+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		5C565B3527A7417500AAFF88 /* Author+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Author+CoreDataClass.swift"; sourceTree = "<group>"; };
-		5C565B3627A7417500AAFF88 /* Author+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Author+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		5CEE569427A0603400DD4698 /* Project38.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project38.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CEE569727A0603400DD4698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CEE569927A0603400DD4698 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +34,10 @@
 		5CEE56A027A0603500DD4698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CEE56A327A0603500DD4698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CEE56A527A0603500DD4698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CF6A9AF27A9619A00E525E0 /* Commit+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Commit+CoreDataClass.swift"; path = "Project38/CoreData/Commit+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		5CF6A9B027A9619A00E525E0 /* Commit+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Commit+CoreDataProperties.swift"; path = "Project38/CoreData/Commit+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		5CF6A9B127A9619A00E525E0 /* Author+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Author+CoreDataClass.swift"; path = "Project38/CoreData/Author+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		5CF6A9B227A9619A00E525E0 /* Author+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Author+CoreDataProperties.swift"; path = "Project38/CoreData/Author+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +54,10 @@
 		5C565B3B27A741A600AAFF88 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				5C565B3327A7417500AAFF88 /* Commit+CoreDataClass.swift */,
-				5C565B3427A7417500AAFF88 /* Commit+CoreDataProperties.swift */,
-				5C565B3527A7417500AAFF88 /* Author+CoreDataClass.swift */,
-				5C565B3627A7417500AAFF88 /* Author+CoreDataProperties.swift */,
+				5CF6A9AF27A9619A00E525E0 /* Commit+CoreDataClass.swift */,
+				5CF6A9B027A9619A00E525E0 /* Commit+CoreDataProperties.swift */,
+				5CF6A9B127A9619A00E525E0 /* Author+CoreDataClass.swift */,
+				5CF6A9B227A9619A00E525E0 /* Author+CoreDataProperties.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -167,16 +167,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CF6A9B627A9619A00E525E0 /* Author+CoreDataProperties.swift in Sources */,
 				5CEE569C27A0603400DD4698 /* ViewController.swift in Sources */,
-				5C565B3727A7417500AAFF88 /* Commit+CoreDataClass.swift in Sources */,
 				5CEE569827A0603400DD4698 /* AppDelegate.swift in Sources */,
 				5C4B7F6727A5414E0077104B /* DetailViewController.swift in Sources */,
 				5CEE569A27A0603400DD4698 /* SceneDelegate.swift in Sources */,
 				5C4B7F6A27A5460F0077104B /* Project38.xcdatamodeld in Sources */,
-				5C565B3927A7417500AAFF88 /* Author+CoreDataClass.swift in Sources */,
-				5C565B3827A7417500AAFF88 /* Commit+CoreDataProperties.swift in Sources */,
-				5C565B3A27A7417500AAFF88 /* Author+CoreDataProperties.swift in Sources */,
 				5C4B7F6527A540150077104B /* SwiftyJSON.swift in Sources */,
+				5CF6A9B427A9619A00E525E0 /* Commit+CoreDataProperties.swift in Sources */,
+				5CF6A9B527A9619A00E525E0 /* Author+CoreDataClass.swift in Sources */,
+				5CF6A9B327A9619A00E525E0 /* Commit+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

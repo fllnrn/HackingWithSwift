@@ -123,7 +123,7 @@ class ViewController: UITableViewController, NSFetchedResultsControllerDelegate 
     func loadSavedData() {
         if fetchedResultsController == nil {
             let request = Commit.createFetchRequest()
-            let sort = NSSortDescriptor(key: "date", ascending: false)
+            let sort = NSSortDescriptor(key: "author.name", ascending: false)
             request.sortDescriptors = [sort]
             request.fetchBatchSize = 20
             
@@ -172,7 +172,7 @@ class ViewController: UITableViewController, NSFetchedResultsControllerDelegate 
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        fetchedResultsController.sections![section].name
+        return fetchedResultsController.sections![section].name
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -192,6 +192,7 @@ class ViewController: UITableViewController, NSFetchedResultsControllerDelegate 
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let vc = storyboard?.instantiateViewController(withIdentifier: "Detail") as? DetailViewController {
+            let author = fetchedResultsController.object(at: indexPath).author.name
             vc.detailItem = fetchedResultsController.object(at: indexPath)
             navigationController?.pushViewController(vc, animated: true)
         }

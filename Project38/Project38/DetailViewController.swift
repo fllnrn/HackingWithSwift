@@ -19,11 +19,17 @@ class DetailViewController: UIViewController {
 
         if let detail = self.detailItem {
             detailLabel.text = detail.message
-            // navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Commit 1/\(detail.author.commits.count)", style: .plain, target: self, action: #selector(showAuthorCommits))
+            navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Commit 1/\(detail.author.commits.count) by \(detail.author.name)", style: .plain, target: self, action: #selector(showAuthorCommits))
         }
     }
     
-    
+    @objc
+    func showAuthorCommits() {
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "tableView") as! ViewController
+        let authorName = detailItem!.author.name
+        vc.commitPredicate = NSPredicate(format: "author.name == %@", authorName as NSString)
+        navigationController?.pushViewController(vc, animated: true)
+    }
     
     
 
